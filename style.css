@@ -1,0 +1,53 @@
+body{
+    background-color: #0a3d5f;
+    color: white;
+    font-weight: bolder;
+}
+
+.block{
+  margin-top: 22em; 
+}
+
+.fix{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.result{
+  border-left: 5px solid tomato;
+  background-color: white; 
+  color: #0a3d5f;
+  min-height: 200px;
+  font-weight: normal;
+  margin-top: 20px;
+  display: block;
+  transition: all .1s ease-in;
+}
+
+.result h2{
+  font-size: 35px;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+.result p{
+  margin: 15px;
+}
+
+.result:hover{
+  border-left: 5px solid #26a69a;
+  margin-left: 5px; 
+}
+
+.error{
+  text-align: center;
+  color: red !important;
+  padding: 8px;
+  font-family: "lucida";
+}
+
+#loader{
+   display: none;
+   margin-top: 22px;
+}
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Gif Api Viewer</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+
+<!--get random article button-->
+<div class="container">
+    <div class="row">
+    <a class="waves-effect waves-light btn clearfix right" href='http://gitlab.com/dongido' target='_blank'>
+        <i class="material-icons right">whatshot</i> Dongido </a>
+    </div>
+</div>        
+
+
+<div id="content" class="container block">
+ <div class="row">
+    <div class="fix">
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">search</i>
+          <input id="search" type="text" class="validate">
+          <label for="icon_search">What are you looking for?</label>
+         </div> 
+         <div class="col s12 center-align fix">
+             <button class="btn waves-effect waves-light" type="button" name="action">Search
+                 <i class="material-icons right">send</i>
+            </button>
+         </div>
+          <div class="col s12 center-align fix" id='loader'> 
+                <img src="loader.svg">
+          </div>
+         
+        <div id="search_cover">
+         <div id="result" class="col s12">
+                
+         </div> 
+      </div>
+      
+      </div>
+    </div>
+    
+        
+  </div>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+
+</body>
+</html>
